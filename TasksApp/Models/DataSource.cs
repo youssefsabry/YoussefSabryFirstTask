@@ -14,7 +14,7 @@ namespace TasksApp
             for (int i = 1; i <= 8; i++)
             {
                 string name = "Task_" + i.ToString();
-                DateTime date = DateTime.Now.AddDays(-i);
+                DateTime date = DateTime.Now.AddDays(+i);
                 Task newTask = new Task(i, name, date);
                 tasks.Add(newTask);
             }

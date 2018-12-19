@@ -10,6 +10,8 @@ namespace TasksApp
         public MainWindow()
         {
             InitializeComponent();
+            var xx =DataSource.GetTasks();
+            int x = 0;
         }
     }
 }

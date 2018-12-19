@@ -11,12 +11,12 @@ namespace TasksApp
         //Read-Only
         public int ID { get; private set; }
         public string TaskName { get; set; }
-        public DateTime CreatedAt { get; set; }
+        public DateTime DeadLine { get; set; }
 
         public Task(int id,string name,DateTime time)
         {
             this.ID = id;
-            this.CreatedAt = time;
+            this.DeadLine = time;
             this.TaskName = name;
         }
     }
