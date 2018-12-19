@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="Abdlrhman's Branch" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="10,10,10,0" VerticalAlignment="Top" Height="399" Width="772" FontWeight="Bold" FontSize="24"/>
+
     </Grid>
 </Window>
